@@ -1,0 +1,49 @@
+/* bookingSuccess.css */
+
+/* 设置页面背景和基本字体 */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* 预定成功信息容器 */
+.success-container {
+    max-width: 600px;
+    margin: 100px auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 标题样式 */
+.success-container h2 {
+    color: #4CAF50;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* 成功消息样式 */
+.success-container p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* 返回链接按钮样式 */
+.success-container a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #2196F3;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.success-container a:hover {
+    background-color: #0b7dda;
+}

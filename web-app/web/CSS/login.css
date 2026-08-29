@@ -1,0 +1,84 @@
+/* 页面整体样式 */
+body {
+    background: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* 登录容器 */
+.login-container {
+    width: 320px;
+    margin: 80px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    padding: 20px;
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* 错误提示信息 */
+#error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* 按钮容器：使用 Flex 布局，让按钮并排 */
+.button-row {
+    display: flex;
+    gap: 10px;           /* 按钮之间的间距 */
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* 登录按钮和注册按钮的共同样式 */
+.login-button,
+.register-button {
+    flex: 1;            /* 平均分配剩余空间，保持等宽 */
+    text-align: center;
+    padding: 10px;
+    border: none;       /* 对 <a> 会被忽略，但保持一致 */
+    border-radius: 4px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;  /* 让链接看起来像按钮 */
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+/* 登录按钮（绿色） */
+.login-button {
+    background: #4CAF50;
+}
+.login-button:hover {
+    background: #45a049;
+}
+
+/* 注册按钮（蓝色） */
+.register-button {
+    background: #2196F3;
+}
+.register-button:hover {
+    background: #0b7dda;
+}
